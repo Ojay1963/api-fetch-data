@@ -33,7 +33,7 @@ function getUsers() {
 getUsers();
 
 function testIfCatchWorks() {
-  fetch('https://jsonplaceholder.typicode.com/u5ers')
+  fetch('https://jsonplaceholder.typicode.co')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
